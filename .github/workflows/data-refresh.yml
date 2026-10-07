@@ -7,6 +7,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
-      - run: pip install -e ".[pdf]" && python -m aletheia.cli scan-batch --target-year "${{ inputs.target_year }}" --limit "${{ inputs.limit }}" --out frontend/public/data || true
+      - run: pip install -e ".[pdf]" && python -m aletheia.cli collect --target-year "${{ inputs.target_year }}" --limit "${{ inputs.limit }}" --delay 2.0 --out frontend/public/data || true
       - run: git status --short
 # Maintainer reviews diff, then commits JSON. Source PDFs remain local/uncached by default.

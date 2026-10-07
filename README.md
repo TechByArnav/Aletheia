@@ -22,7 +22,12 @@ python -m aletheia.golden
 
 # Scan one university (local; unauthenticated search, manual override supported)
 aletheia scan-one --university "Rice University" --target-year 2026
-aletheia scan-one --university "City University of New York" --source-url "https://…/baruch-cds.pdf"
+aletheia scan-one --university "City University of New York" --source-url "https://.../baruch-cds.pdf"
+
+# Batch automation: full starter list (or --limit N), resumable, per-university logs
+# Overrides (reviewed official URLs) live in data/overrides.json
+aletheia collect --target-year 2026 --limit 10 --delay 2.0
+aletheia collect --target-year 2026 --limit 0  # full list
 
 # Frontend
 cd frontend && npm install && npm run build

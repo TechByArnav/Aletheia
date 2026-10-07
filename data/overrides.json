@@ -1,0 +1,8 @@
+{
+  "_comment": "Reviewed manual source overrides. Official .edu sources preferred; mirrors labeled during validation. Add entries as '<Display Name>': ['<url>'].",
+  "Rice University": ["http://ideas.rice.edu/wp-content/uploads/2026/07/CDS_2025-26_WEBSITE.pdf"],
+  "Harvard University": ["https://oira.harvard.edu/files/2026/07/CDS_2025-2026.pdf"],
+  "Yale University": ["https://oir.yale.edu/sites/default/files/yale_cds_2025-26_md_20260616.pdf"],
+  "Massachusetts Institute of Technology": ["https://ir.mit.edu/projects/2025-26-common-data-set"],
+  "Stanford University": ["https://irds.stanford.edu/data-findings/cds"]
+}
