@@ -1,0 +1,897 @@
+[
+  {
+    "institution": {
+      "schema_version": "1.0.0",
+      "institution_id": "example-institute-technology",
+      "display_name": "Example Institute of Technology",
+      "campus_scope": "Main campus",
+      "is_ambiguous": false,
+      "ambiguity_note": ""
+    },
+    "document": {
+      "schema_version": "1.0.0",
+      "doc_id": "example-institute-technology--golden1",
+      "institution_id": "example-institute-technology",
+      "display_name": "Example Institute of Technology",
+      "campus_scope": "",
+      "source_url": "https://example.edu/cds-mit.pdf",
+      "source_domain": "example.edu",
+      "is_official": true,
+      "is_mirror": false,
+      "file_type": "pdf",
+      "file_hash": "golden-fixture",
+      "requested_target_year": "2026",
+      "reporting_period": "2025-2026",
+      "cohort_year": "Fall 2025",
+      "policy_term": "Fall 2026",
+      "publication_date": "",
+      "retrieved_at": "2026-10-07T22:52:16.357437+00:00",
+      "validation_status": "verified",
+      "validation_notes": []
+    },
+    "c7": {
+      "schema_version": "1.0.0",
+      "institution_id": "example-institute-technology",
+      "display_name": "Example Institute of Technology",
+      "campus_scope": "",
+      "reporting_period": "2025-2026",
+      "cohort_year": "",
+      "source": {
+        "source_url": "https://example.edu/cds-mit.pdf",
+        "document_hash": "golden-fixture",
+        "page": null,
+        "bbox": null,
+        "excerpt": "",
+        "section": "C7",
+        "raw_value": "",
+        "normalized_value": "",
+        "method": "deterministic",
+        "status": "verified",
+        "confidence": 0.95
+      },
+      "status": "verified",
+      "factors": [
+        {
+          "factor_raw": "Rigor of secondary school record",
+          "factor_normalized": "Rigor of secondary school record",
+          "rating_raw": "Very Important",
+          "rating_normalized": "Very Important",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-mit.pdf",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "Rigor of secondary school record | X | | |",
+            "section": "C7",
+            "raw_value": "Very Important",
+            "normalized_value": "Very Important",
+            "method": "deterministic",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "factor_raw": "Class rank",
+          "factor_normalized": "Class rank",
+          "rating_raw": "Considered",
+          "rating_normalized": "Considered",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-mit.pdf",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "Class rank | | | X |",
+            "section": "C7",
+            "raw_value": "Considered",
+            "normalized_value": "Considered",
+            "method": "deterministic",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "factor_raw": "Academic GPA",
+          "factor_normalized": "Academic GPA",
+          "rating_raw": "Very Important",
+          "rating_normalized": "Very Important",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-mit.pdf",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "Academic GPA | X | | |",
+            "section": "C7",
+            "raw_value": "Very Important",
+            "normalized_value": "Very Important",
+            "method": "deterministic",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "factor_raw": "Standardized test scores",
+          "factor_normalized": "Standardized test scores",
+          "rating_raw": "Not Considered",
+          "rating_normalized": "Not Considered",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-mit.pdf",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "Standardized test scores | | | | X",
+            "section": "C7",
+            "raw_value": "Not Considered",
+            "normalized_value": "Not Considered",
+            "method": "deterministic",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "factor_raw": "Application essay",
+          "factor_normalized": "Application essay",
+          "rating_raw": "Considered",
+          "rating_normalized": "Considered",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-mit.pdf",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "Application essay | | | X |",
+            "section": "C7",
+            "raw_value": "Considered",
+            "normalized_value": "Considered",
+            "method": "deterministic",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "factor_raw": "Recommendations",
+          "factor_normalized": "Recommendations",
+          "rating_raw": "Considered",
+          "rating_normalized": "Considered",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-mit.pdf",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "Recommendations | | | X |",
+            "section": "C7",
+            "raw_value": "Considered",
+            "normalized_value": "Considered",
+            "method": "deterministic",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "factor_raw": "Interview",
+          "factor_normalized": "Interview",
+          "rating_raw": "Not Considered",
+          "rating_normalized": "Not Considered",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-mit.pdf",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "Interview | | | | X",
+            "section": "C7",
+            "raw_value": "Not Considered",
+            "normalized_value": "Not Considered",
+            "method": "deterministic",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "factor_raw": "Extracurricular activities",
+          "factor_normalized": "Extracurricular activities",
+          "rating_raw": "Considered",
+          "rating_normalized": "Considered",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-mit.pdf",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "Extracurricular activities | | | X |",
+            "section": "C7",
+            "raw_value": "Considered",
+            "normalized_value": "Considered",
+            "method": "deterministic",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "factor_raw": "Talent/ability",
+          "factor_normalized": "Talent/ability",
+          "rating_raw": "Considered",
+          "rating_normalized": "Considered",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-mit.pdf",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "Talent/ability | | | X |",
+            "section": "C7",
+            "raw_value": "Considered",
+            "normalized_value": "Considered",
+            "method": "deterministic",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "factor_raw": "Character/personal qualities",
+          "factor_normalized": "Character/personal qualities",
+          "rating_raw": "Considered",
+          "rating_normalized": "Considered",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-mit.pdf",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "Character/personal qualities | | | X |",
+            "section": "C7",
+            "raw_value": "Considered",
+            "normalized_value": "Considered",
+            "method": "deterministic",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "factor_raw": "First-generation status",
+          "factor_normalized": "First-generation status",
+          "rating_raw": "Considered",
+          "rating_normalized": "Considered",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-mit.pdf",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "First-generation status | | | X |",
+            "section": "C7",
+            "raw_value": "Considered",
+            "normalized_value": "Considered",
+            "method": "deterministic",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "factor_raw": "Alumni relation",
+          "factor_normalized": "Alumni relation",
+          "rating_raw": "Not Considered",
+          "rating_normalized": "Not Considered",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-mit.pdf",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "Alumni relation | | | | X",
+            "section": "C7",
+            "raw_value": "Not Considered",
+            "normalized_value": "Not Considered",
+            "method": "deterministic",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "factor_raw": "Geographical residence",
+          "factor_normalized": "Geographical residence",
+          "rating_raw": "Not Considered",
+          "rating_normalized": "Not Considered",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-mit.pdf",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "Geographical residence | | | | X",
+            "section": "C7",
+            "raw_value": "Not Considered",
+            "normalized_value": "Not Considered",
+            "method": "deterministic",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "factor_raw": "State residency",
+          "factor_normalized": "State residency",
+          "rating_raw": "Not Considered",
+          "rating_normalized": "Not Considered",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-mit.pdf",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "State residency | | | | X",
+            "section": "C7",
+            "raw_value": "Not Considered",
+            "normalized_value": "Not Considered",
+            "method": "deterministic",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "factor_raw": "Religious affiliation/commitment",
+          "factor_normalized": "Religious affiliation/commitment",
+          "rating_raw": "Not Considered",
+          "rating_normalized": "Not Considered",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-mit.pdf",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "Religious affiliation/commitment | | | | X",
+            "section": "C7",
+            "raw_value": "Not Considered",
+            "normalized_value": "Not Considered",
+            "method": "deterministic",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "factor_raw": "Volunteer work",
+          "factor_normalized": "Volunteer work",
+          "rating_raw": "Considered",
+          "rating_normalized": "Considered",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-mit.pdf",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "Volunteer work | | | X |",
+            "section": "C7",
+            "raw_value": "Considered",
+            "normalized_value": "Considered",
+            "method": "deterministic",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "factor_raw": "Work experience",
+          "factor_normalized": "Work experience",
+          "rating_raw": "Considered",
+          "rating_normalized": "Considered",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-mit.pdf",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "Work experience | | | X |",
+            "section": "C7",
+            "raw_value": "Considered",
+            "normalized_value": "Considered",
+            "method": "deterministic",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "factor_raw": "Applicant interest",
+          "factor_normalized": "Applicant interest",
+          "rating_raw": "Not Considered",
+          "rating_normalized": "Not Considered",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-mit.pdf",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "Applicant interest | | | | X",
+            "section": "C7",
+            "raw_value": "Not Considered",
+            "normalized_value": "Not Considered",
+            "method": "deterministic",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        }
+      ],
+      "updated_at": "2026-10-07T22:52:16.357583+00:00"
+    },
+    "c8": {
+      "schema_version": "1.0.0",
+      "institution_id": "example-institute-technology",
+      "display_name": "Example Institute of Technology",
+      "reporting_period": "2025-2026",
+      "policy_term": "Fall 2026",
+      "source": {
+        "source_url": "https://example.edu/cds-mit.pdf",
+        "document_hash": "golden-fixture",
+        "page": null,
+        "bbox": null,
+        "excerpt": "",
+        "section": "C8",
+        "raw_value": "",
+        "normalized_value": "",
+        "method": "deterministic",
+        "status": "verified",
+        "confidence": 0.95
+      },
+      "status": "verified",
+      "policies": [],
+      "notes": "Test-optional for Fall 2026.",
+      "updated_at": "2026-10-07T22:52:16.357598+00:00"
+    },
+    "c9": {
+      "schema_version": "1.0.0",
+      "institution_id": "example-institute-technology",
+      "display_name": "Example Institute of Technology",
+      "reporting_period": "2025-2026",
+      "cohort": "Fall 2025",
+      "source": {
+        "source_url": "https://example.edu/cds-mit.pdf",
+        "document_hash": "golden-fixture",
+        "page": null,
+        "bbox": null,
+        "excerpt": "",
+        "section": "C9",
+        "raw_value": "",
+        "normalized_value": "",
+        "method": "deterministic",
+        "status": "verified",
+        "confidence": 0.95
+      },
+      "status": "verified",
+      "sat_submitters_n": null,
+      "sat_submitters_pct": 32.0,
+      "act_submitters_n": null,
+      "act_submitters_pct": null,
+      "sat_ebrw": {
+        "p25": 680.0,
+        "p50": null,
+        "p75": 760.0,
+        "missing": null
+      },
+      "sat_math": {
+        "p25": 700.0,
+        "p50": null,
+        "p75": 790.0,
+        "missing": null
+      },
+      "sat_composite": {
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "missing": null
+      },
+      "act_composite": {
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "missing": null
+      },
+      "notes": "",
+      "updated_at": "2026-10-07T22:52:16.357505+00:00"
+    },
+    "c10": {
+      "schema_version": "1.0.0",
+      "institution_id": "example-institute-technology",
+      "display_name": "Example Institute of Technology",
+      "reporting_period": "2025-2026",
+      "cohort": "Fall 2025",
+      "source": {
+        "source_url": "https://example.edu/cds-mit.pdf",
+        "document_hash": "golden-fixture",
+        "page": null,
+        "bbox": null,
+        "excerpt": "",
+        "section": "C10",
+        "raw_value": "",
+        "normalized_value": "",
+        "method": "deterministic",
+        "status": "verified",
+        "confidence": 0.95
+      },
+      "status": "verified",
+      "pct_reporting_rank": 78.0,
+      "top_tenth_pct": 62.0,
+      "top_quarter_pct": 88.0,
+      "top_half_pct": null,
+      "bottom_half_pct": null,
+      "bottom_quarter_pct": null,
+      "notes": "",
+      "updated_at": "2026-10-07T22:52:16.357613+00:00"
+    },
+    "c11": {
+      "schema_version": "1.0.0",
+      "institution_id": "example-institute-technology",
+      "display_name": "Example Institute of Technology",
+      "reporting_period": "2025-2026",
+      "cohort": "Fall 2025",
+      "source": {
+        "source_url": "https://example.edu/cds-mit.pdf",
+        "document_hash": "golden-fixture",
+        "page": null,
+        "bbox": null,
+        "excerpt": "",
+        "section": "C11",
+        "raw_value": "",
+        "normalized_value": "",
+        "method": "deterministic",
+        "status": "verified",
+        "confidence": 0.95
+      },
+      "status": "verified",
+      "gpa_scale": "4.0",
+      "pct_reporting_gpa": 99.0,
+      "buckets": {
+        "4.0": 42.0,
+        "3.75-3.99": 31.0,
+        "3.50-3.74": 15.0
+      },
+      "notes": "",
+      "updated_at": "2026-10-07T22:52:16.357851+00:00"
+    }
+  },
+  {
+    "institution": {
+      "schema_version": "1.0.0",
+      "institution_id": "lakeside-college",
+      "display_name": "Lakeside College",
+      "campus_scope": "",
+      "is_ambiguous": false,
+      "ambiguity_note": ""
+    },
+    "document": {
+      "schema_version": "1.0.0",
+      "doc_id": "lakeside-college--golden2",
+      "institution_id": "lakeside-college",
+      "display_name": "Lakeside College",
+      "campus_scope": "",
+      "source_url": "https://example.edu/cds-lakeside.html",
+      "source_domain": "example.edu",
+      "is_official": true,
+      "is_mirror": false,
+      "file_type": "html",
+      "file_hash": "golden-fixture",
+      "requested_target_year": "2026",
+      "reporting_period": "2025-2026",
+      "cohort_year": "",
+      "policy_term": "",
+      "publication_date": "",
+      "retrieved_at": "2026-10-07T22:52:16.359342+00:00",
+      "validation_status": "verified",
+      "validation_notes": []
+    },
+    "c7": {
+      "schema_version": "1.0.0",
+      "institution_id": "lakeside-college",
+      "display_name": "Lakeside College",
+      "campus_scope": "",
+      "reporting_period": "2025-2026",
+      "cohort_year": "",
+      "source": {
+        "source_url": "https://example.edu/cds-lakeside.html",
+        "document_hash": "golden-fixture",
+        "page": null,
+        "bbox": null,
+        "excerpt": "",
+        "section": "C7",
+        "raw_value": "",
+        "normalized_value": "",
+        "method": "deterministic",
+        "status": "verified",
+        "confidence": 0.95
+      },
+      "status": "verified",
+      "factors": [
+        {
+          "factor_raw": "Academic GPA",
+          "factor_normalized": "Academic GPA",
+          "rating_raw": "Very Important",
+          "rating_normalized": "Very Important",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-lakeside.html",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "Factor Not Considered Considered Important Very Important Academic GPA X Class rank X State residency X",
+            "section": "C7",
+            "raw_value": "Very Important",
+            "normalized_value": "Very Important",
+            "method": "html",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "factor_raw": "Class rank",
+          "factor_normalized": "Class rank",
+          "rating_raw": "Considered",
+          "rating_normalized": "Considered",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-lakeside.html",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "Factor Not Considered Considered Important Very Important Academic GPA X Class rank X State residency X",
+            "section": "C7",
+            "raw_value": "Considered",
+            "normalized_value": "Considered",
+            "method": "html",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "factor_raw": "State residency",
+          "factor_normalized": "State residency",
+          "rating_raw": "Not Considered",
+          "rating_normalized": "Not Considered",
+          "missing": null,
+          "provenance": {
+            "source_url": "https://example.edu/cds-lakeside.html",
+            "document_hash": "golden-fixture",
+            "page": null,
+            "bbox": null,
+            "excerpt": "Factor Not Considered Considered Important Very Important Academic GPA X Class rank X State residency X",
+            "section": "C7",
+            "raw_value": "Not Considered",
+            "normalized_value": "Not Considered",
+            "method": "html",
+            "status": "verified",
+            "confidence": 0.9
+          }
+        }
+      ],
+      "updated_at": "2026-10-07T22:52:16.359363+00:00"
+    },
+    "c8": {
+      "schema_version": "1.0.0",
+      "institution_id": "lakeside-college",
+      "display_name": "Lakeside College",
+      "reporting_period": "2025-2026",
+      "policy_term": "",
+      "source": {
+        "source_url": "https://example.edu/cds-lakeside.html",
+        "document_hash": "golden-fixture",
+        "page": null,
+        "bbox": null,
+        "excerpt": "",
+        "section": "C8",
+        "raw_value": "",
+        "normalized_value": "",
+        "method": "deterministic",
+        "status": "verified",
+        "confidence": 0.95
+      },
+      "status": "partial",
+      "policies": [],
+      "notes": "",
+      "updated_at": "2026-10-07T22:52:16.359375+00:00"
+    },
+    "c9": {
+      "schema_version": "1.0.0",
+      "institution_id": "lakeside-college",
+      "display_name": "Lakeside College",
+      "reporting_period": "2025-2026",
+      "cohort": "",
+      "source": {
+        "source_url": "https://example.edu/cds-lakeside.html",
+        "document_hash": "golden-fixture",
+        "page": null,
+        "bbox": null,
+        "excerpt": "",
+        "section": "C9",
+        "raw_value": "",
+        "normalized_value": "",
+        "method": "deterministic",
+        "status": "verified",
+        "confidence": 0.95
+      },
+      "status": "not_available",
+      "sat_submitters_n": null,
+      "sat_submitters_pct": null,
+      "act_submitters_n": null,
+      "act_submitters_pct": null,
+      "sat_ebrw": {
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "missing": null
+      },
+      "sat_math": {
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "missing": null
+      },
+      "sat_composite": {
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "missing": null
+      },
+      "act_composite": {
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "missing": null
+      },
+      "notes": "",
+      "updated_at": "2026-10-07T22:52:16.359394+00:00"
+    },
+    "c10": {
+      "schema_version": "1.0.0",
+      "institution_id": "lakeside-college",
+      "display_name": "Lakeside College",
+      "reporting_period": "2025-2026",
+      "cohort": "",
+      "source": {
+        "source_url": "https://example.edu/cds-lakeside.html",
+        "document_hash": "golden-fixture",
+        "page": null,
+        "bbox": null,
+        "excerpt": "",
+        "section": "C10",
+        "raw_value": "",
+        "normalized_value": "",
+        "method": "deterministic",
+        "status": "verified",
+        "confidence": 0.95
+      },
+      "status": "not_available",
+      "pct_reporting_rank": null,
+      "top_tenth_pct": null,
+      "top_quarter_pct": null,
+      "top_half_pct": null,
+      "bottom_half_pct": null,
+      "bottom_quarter_pct": null,
+      "notes": "",
+      "updated_at": "2026-10-07T22:52:16.359405+00:00"
+    },
+    "c11": {
+      "schema_version": "1.0.0",
+      "institution_id": "lakeside-college",
+      "display_name": "Lakeside College",
+      "reporting_period": "2025-2026",
+      "cohort": "",
+      "source": {
+        "source_url": "https://example.edu/cds-lakeside.html",
+        "document_hash": "golden-fixture",
+        "page": null,
+        "bbox": null,
+        "excerpt": "",
+        "section": "C11",
+        "raw_value": "",
+        "normalized_value": "",
+        "method": "deterministic",
+        "status": "verified",
+        "confidence": 0.95
+      },
+      "status": "not_available",
+      "gpa_scale": "",
+      "pct_reporting_gpa": null,
+      "buckets": {},
+      "notes": "",
+      "updated_at": "2026-10-07T22:52:16.359416+00:00"
+    }
+  },
+  {
+    "institution": {
+      "schema_version": "1.0.0",
+      "institution_id": "harbor-state-university",
+      "display_name": "Harbor State University",
+      "campus_scope": "",
+      "is_ambiguous": false,
+      "ambiguity_note": ""
+    },
+    "document": {
+      "schema_version": "1.0.0",
+      "doc_id": "harbor-state-university--golden3",
+      "institution_id": "harbor-state-university",
+      "display_name": "Harbor State University",
+      "campus_scope": "",
+      "source_url": "https://example.edu/harbor-cds.pdf",
+      "source_domain": "example.edu",
+      "is_official": true,
+      "is_mirror": false,
+      "file_type": "pdf",
+      "file_hash": "golden-fixture",
+      "requested_target_year": "2026",
+      "reporting_period": "2025-2026",
+      "cohort_year": "",
+      "policy_term": "",
+      "publication_date": "",
+      "retrieved_at": "2026-10-07T22:52:16.359432+00:00",
+      "validation_status": "needs_review",
+      "validation_notes": [
+        "Scanned PDF without text layer: use local OCR workflow."
+      ]
+    },
+    "c7": {
+      "schema_version": "1.0.0",
+      "institution_id": "harbor-state-university",
+      "display_name": "Harbor State University",
+      "campus_scope": "",
+      "reporting_period": "2025-2026",
+      "cohort_year": "",
+      "source": {
+        "source_url": "https://example.edu/harbor-cds.pdf",
+        "document_hash": "golden-fixture",
+        "page": null,
+        "bbox": null,
+        "excerpt": "",
+        "section": "C7",
+        "raw_value": "",
+        "normalized_value": "",
+        "method": "deterministic",
+        "status": "verified",
+        "confidence": 0.95
+      },
+      "status": "needs_review",
+      "factors": [],
+      "updated_at": "2026-10-07T22:52:16.359441+00:00"
+    },
+    "c8": null,
+    "c9": null,
+    "c10": null,
+    "c11": null
+  },
+  {
+    "institution": {
+      "schema_version": "1.0.0",
+      "institution_id": "city-university-of-new-york",
+      "display_name": "City University of New York",
+      "campus_scope": "",
+      "is_ambiguous": true,
+      "ambiguity_note": "System entry: requires reviewed college mapping; not silently substituted."
+    },
+    "document": {
+      "schema_version": "1.0.0",
+      "doc_id": "city-university-of-new-york--golden4",
+      "institution_id": "city-university-of-new-york",
+      "display_name": "City University of New York",
+      "campus_scope": "",
+      "source_url": "",
+      "source_domain": "",
+      "is_official": false,
+      "is_mirror": false,
+      "file_type": "unknown",
+      "file_hash": "",
+      "requested_target_year": "2026",
+      "reporting_period": "",
+      "cohort_year": "",
+      "policy_term": "",
+      "publication_date": "",
+      "retrieved_at": "2026-10-07T22:52:16.359452+00:00",
+      "validation_status": "needs_review",
+      "validation_notes": [
+        "System entry: choose a specific college CDS via manual override."
+      ]
+    },
+    "c7": null,
+    "c8": null,
+    "c9": null,
+    "c10": null,
+    "c11": null
+  }
+]

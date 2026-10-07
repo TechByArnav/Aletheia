@@ -1,0 +1,12 @@
+name: Data refresh (manual)
+on: { workflow_dispatch: { inputs: { target_year: { default: '2026' }, limit: { default: '0' } } } }
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install -e ".[pdf]" && python -m aletheia.cli scan-batch --target-year "${{ inputs.target_year }}" --limit "${{ inputs.limit }}" --out frontend/public/data || true
+      - run: git status --short
+# Maintainer reviews diff, then commits JSON. Source PDFs remain local/uncached by default.

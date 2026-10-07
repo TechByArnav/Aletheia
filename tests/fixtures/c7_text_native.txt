@@ -1,0 +1,29 @@
+C7 Relative importance in admission decisions
+Factor | Very Important | Important | Considered | Not Considered
+Rigor of secondary school record | X | | |
+Class rank | | | X |
+Academic GPA | X | | |
+Standardized test scores | | | | X
+Application essay | | | X |
+Recommendations | | | X |
+Interview | | | | X
+Extracurricular activities | | | X |
+Talent/ability | | | X |
+Character/personal qualities | | | X |
+First-generation status | | | X |
+Alumni relation | | | | X
+Geographical residence | | | | X
+State residency | | | | X
+Religious affiliation/commitment | | | | X
+Volunteer work | | | X |
+Work experience | | | X |
+Applicant interest | | | | X
+
+C8 Admission requirements
+SAT/ACT considered. Test-optional for Fall 2026. Interview not required.
+C9 Test scores of enrolled first-year students, Fall 2025
+SAT EBRW 25th 680 75th 760
+SAT Math 25th 700 75th 790
+32% submitted SAT scores.
+C10 Class rank, Fall 2025
+C11 GPA distribution

@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-10-07T22:52:16.361890+00:00",
+  "reporting_periods": [
+    "2025-2026"
+  ],
+  "n_institutions": 4,
+  "counts": {
+    "total": 4,
+    "verified": 2,
+    "partial": 0,
+    "needs_review": 2,
+    "not_available": 0,
+    "failed": 0
+  },
+  "limitations": [
+    "Starter list is user-provided, not a verified ranking.",
+    "Mixed reporting periods are labeled; disable mixed-year comparison in UI when strict.",
+    "System entries (Minnesota, CUNY) require reviewed campus mapping.",
+    "Missing values are never zero; see schema docs."
+  ]
+}

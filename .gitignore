@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+# Data caches — source PDFs stay local by default, never auto-published
+data/cache/
+data/downloads/
+*.pdf
+!fixtures/**/*.pdf
+# Frontend
+frontend/node_modules/
+frontend/dist/
+# OS
+.DS_Store
+Thumbs.db
