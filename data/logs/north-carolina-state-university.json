@@ -1,0 +1,44 @@
+{
+  "display_name": "North Carolina State University",
+  "status": "needs_review",
+  "queries": [
+    "North Carolina State University 2026 Common Data Set pdf",
+    "North Carolina State University Common Data Set 2025-2026",
+    "North Carolina State University common data set site:edu",
+    "North Carolina State University Common Data Set 2026-2027",
+    "North Carolina State University institutional research common data set",
+    "North Carolina State University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://en.wikipedia.org/wiki/North",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/North_Buffalo,_Buffalo",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://northtownauto.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/north",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://northparktheatre.org/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.zillow.com/buffalo-ny/north-buffalo_att/",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Candidate failed: https://www.merriam-webster.com/dictionary/north (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://www.merriam-webster.com/dictionary/north)",
+    "Unknown file signature/content-type; not marked processed.",
+    "Third-party mirror suspected (northparktheatre.org); prefer official .edu source.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

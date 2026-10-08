@@ -1,0 +1,71 @@
+{
+  "display_name": "New York University",
+  "status": "verified",
+  "queries": [
+    "New York University 2026 Common Data Set pdf",
+    "New York University Common Data Set 2025-2026",
+    "New York University common data set site:edu",
+    "New York University Common Data Set 2026-2027",
+    "New York University institutional research common data set",
+    "New York University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://www.nyu.edu/content/dam/nyu/institutionalResearch/documents/cds-2025-2026/CDS%202025-2026%20FINAL%20(no%20G).pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.nyu.edu/employees/resources-and-services/administrative-services/institutional-research/self-service-reporting-resources/factbook.html",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.gradgpt.com/common-data-set/new-york-university-nyu",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://commondatasets.com/schools/nyu.html",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.commondatasets.fyi/nyu",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.haierpro.com.tw/product/p307/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.haierpro.com.tw/product/dc5lite/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.haierpro.com.tw/product/h600/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.haierpro.com.tw/product/dc6/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.haierpro.com.tw/product/m9/feed/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.haierpro.com.tw/product/800gropcb/feed/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.collegedata.fyi/schools/nyu/2025-26",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.collegedata.fyi/schools/nyu",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Candidate failed: https://www.commondatasets.fyi/nyu (Download failed after 3 attempts: 402 Client Error: Payment Required for url: https://www.commondatasets.fyi/nyu)",
+    "Institution tokens not found in head text for 'New York University'; needs review.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "display_name": "University of Illinois Urbana-Champaign",
+  "status": "needs_review",
+  "queries": [
+    "University of Illinois Urbana-Champaign 2026 Common Data Set pdf",
+    "University of Illinois Urbana-Champaign Common Data Set 2025-2026",
+    "University of Illinois Urbana-Champaign common data set site:edu",
+    "University of Illinois Urbana-Champaign Common Data Set 2026-2027",
+    "University of Illinois Urbana-Champaign institutional research common data set",
+    "University of Illinois Urbana-Champaign CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://dair.illinois.edu/access-data/common-data-set/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://oir.uic.edu/common-data-set-3/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.uga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/campus-locations/cartersville-site/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.kennesaw.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.westga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://dair.illinois.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://enrollmentmanagement.illinois.edu/reports-data/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.pb.uillinois.edu/what-we-do/institutional-research-and-analytical-studies/students/student-data-book.cfm",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://publish.illinois.edu/lis501datasets/collection/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/University",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Unknown file signature/content-type; not marked processed."
+  ]
+}

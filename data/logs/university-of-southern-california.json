@@ -1,0 +1,42 @@
+{
+  "display_name": "University of Southern California",
+  "status": "needs_review",
+  "queries": [
+    "University of Southern California 2026 Common Data Set pdf",
+    "University of Southern California Common Data Set 2025-2026",
+    "University of Southern California common data set site:edu",
+    "University of Southern California Common Data Set 2026-2027",
+    "University of Southern California institutional research common data set",
+    "University of Southern California CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://www.uga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/campus-locations/cartersville-site/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.kennesaw.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.westga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/University",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "File too small to be a full CDS; likely error page.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

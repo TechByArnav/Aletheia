@@ -1,0 +1,45 @@
+{
+  "display_name": "Ohio State University",
+  "status": "needs_review",
+  "queries": [
+    "Ohio State University 2026 Common Data Set pdf",
+    "Ohio State University Common Data Set 2025-2026",
+    "Ohio State University common data set site:edu",
+    "Ohio State University Common Data Set 2026-2027",
+    "Ohio State University institutional research common data set",
+    "Ohio State University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Ohio",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://ohio.gov/wps/portal/gov/site/home/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.worldatlas.com/maps/united-states/ohio",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.britannica.com/place/Ohio-state",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/History_of_Ohio",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://ontheworldmap.com/usa/state/ohio/",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Candidate failed: https://ohio.gov/wps/portal/gov/site/home/ (Download failed after 3 attempts: 404 Client Error: Not Found for url: https://ohio.gov/wps/portal/gov/site/home/)",
+    "Candidate failed: https://www.britannica.com/place/Ohio-state (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://www.britannica.com/place/Ohio-state)",
+    "Unknown file signature/content-type; not marked processed.",
+    "Third-party mirror suspected (en.wikipedia.org); prefer official .edu source.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

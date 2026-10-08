@@ -1,0 +1,67 @@
+{
+  "display_name": "University at Buffalo SUNY",
+  "status": "partial",
+  "queries": [
+    "University at Buffalo SUNY 2026 Common Data Set pdf",
+    "University at Buffalo SUNY Common Data Set 2025-2026",
+    "University at Buffalo SUNY common data set site:edu",
+    "University at Buffalo SUNY Common Data Set 2026-2027",
+    "University at Buffalo SUNY institutional research common data set",
+    "University at Buffalo SUNY CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://www.buffalo.edu/content/dam/www/oia/Common-Data-Sets/CDS_2024-2025.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.buffalo.edu/oia/facts-publications/common-data-sets.html",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://institutionalresearch.buffalostate.edu/common-data-set",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://institutionalresearch.buffalostate.edu/common-data-set-archive",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.uga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/campus-locations/cartersville-site/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.kennesaw.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.westga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://system.suny.edu/institutional-research/resources/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://system.suny.edu/institutional-research/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/University",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'University at Buffalo SUNY'; needs review.",
+    "Detected period '2024-2025' does not contain requested year '2026'; flagged mixed-year.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

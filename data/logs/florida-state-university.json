@@ -1,0 +1,45 @@
+{
+  "display_name": "Florida State University",
+  "status": "needs_review",
+  "queries": [
+    "Florida State University 2026 Common Data Set pdf",
+    "Florida State University Common Data Set 2025-2026",
+    "Florida State University common data set site:edu",
+    "Florida State University Common Data Set 2026-2027",
+    "Florida State University institutional research common data set",
+    "Florida State University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Florida",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.worldatlas.com/maps/united-states/florida",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.myflorida.gov/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.visitflorida.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.britannica.com/place/Florida",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://travel.usnews.com/rankings/best-places-to-visit-in-florida/",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Candidate failed: https://www.britannica.com/place/Florida (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://www.britannica.com/place/Florida)",
+    "Candidate failed: https://travel.usnews.com/rankings/best-places-to-visit-in-florida/ (Download failed after 3 attempts: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))",
+    "Unknown file signature/content-type; not marked processed.",
+    "Third-party mirror suspected (en.wikipedia.org); prefer official .edu source.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

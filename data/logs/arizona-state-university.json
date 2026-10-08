@@ -1,0 +1,46 @@
+{
+  "display_name": "Arizona State University",
+  "status": "needs_review",
+  "queries": [
+    "Arizona State University 2026 Common Data Set pdf",
+    "Arizona State University Common Data Set 2025-2026",
+    "Arizona State University common data set site:edu",
+    "Arizona State University Common Data Set 2026-2027",
+    "Arizona State University institutional research common data set",
+    "Arizona State University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://en.m.wikipedia.org/wiki/Arizona",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.worldatlas.com/maps/united-states/arizona",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://az.gov/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.visitarizona.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.britannica.com/place/Arizona-state",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.m.wikipedia.org/wiki/Geography_of_Arizona",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Candidate failed: https://az.gov/ (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://az.gov/)",
+    "Candidate failed: https://www.visitarizona.com/ (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://www.visitarizona.com/)",
+    "Candidate failed: https://www.britannica.com/place/Arizona-state (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://www.britannica.com/place/Arizona-state)",
+    "Unknown file signature/content-type; not marked processed.",
+    "Third-party mirror suspected (en.m.wikipedia.org); prefer official .edu source.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

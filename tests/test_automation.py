@@ -7,7 +7,19 @@ from pathlib import Path
 from aletheia import automation
 from aletheia.models import Institution, UniversityBundle
 from aletheia.pipeline import slugify
-from aletheia.search import Candidate, SearchProvider
+from aletheia.search import Candidate, ChainedProvider, GoogleCSEProvider, SearchProvider
+
+
+def test_google_cse_disabled_without_key():
+    p = GoogleCSEProvider(key="", cx="")
+    assert not p.available
+    assert p.search("anything", max_results=5) == []  # no network, no crash
+
+
+def test_chain_skips_unavailable():
+    chain = ChainedProvider([GoogleCSEProvider(key="", cx=""), StubProvider(["https://example.edu/x.pdf"])])
+    got = chain.search("q", max_results=5)
+    assert [c.url for c in got] == ["https://example.edu/x.pdf"]
 
 
 class StubProvider(SearchProvider):
@@ -47,7 +59,7 @@ def test_overrides_passed_to_runner(tmp_path: Path):
     assert seen.get("Rice University") == ["https://example.edu/rice.pdf"]
 
 
-def test_resume_skips_verified(tmp_path: Path):
+def test_resume_skips_recorded(tmp_path: Path):
     from aletheia.seed import top_100_us_universities
     calls: list[str] = []
 
@@ -56,13 +68,30 @@ def test_resume_skips_verified(tmp_path: Path):
         return _ok_runner(name, provider, cache_dir, target_year, manual)
 
     st = tmp_path / "s.json"
-    st.write_text(json.dumps({top_100_us_universities[0]: "verified"}), encoding="utf-8")
+    st.write_text(json.dumps({top_100_us_universities[0]: "needs_review"}), encoding="utf-8")
     automation.run_collection(limit=2, delay=0, cache_dir=tmp_path / "c", out_dir=tmp_path / "o2",
                               statuses_path=st, logs_dir=tmp_path / "l2",
                               overrides_path=tmp_path / "missing.json",
                               provider=StubProvider([]), run_one_fn=runner)
     assert top_100_us_universities[0] not in calls
     assert top_100_us_universities[1] in calls
+
+
+def test_recheck_redoes_recorded(tmp_path: Path):
+    from aletheia.seed import top_100_us_universities
+    calls: list[str] = []
+
+    def runner(name, provider, cache_dir, target_year, manual):
+        calls.append(name)
+        return _ok_runner(name, provider, cache_dir, target_year, manual)
+
+    st = tmp_path / "s.json"
+    st.write_text(json.dumps({top_100_us_universities[0]: "needs_review"}), encoding="utf-8")
+    automation.run_collection(limit=1, delay=0, cache_dir=tmp_path / "c", out_dir=tmp_path / "o2b",
+                              statuses_path=st, logs_dir=tmp_path / "l2b",
+                              overrides_path=tmp_path / "missing.json",
+                              provider=StubProvider([]), run_one_fn=runner, recheck=True)
+    assert top_100_us_universities[0] in calls
 
 
 def test_failure_never_verified(tmp_path: Path):

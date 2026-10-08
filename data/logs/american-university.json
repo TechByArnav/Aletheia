@@ -1,0 +1,46 @@
+{
+  "display_name": "American University",
+  "status": "needs_review",
+  "queries": [
+    "American University 2026 Common Data Set pdf",
+    "American University Common Data Set 2025-2026",
+    "American University common data set site:edu",
+    "American University Common Data Set 2026-2027",
+    "American University institutional research common data set",
+    "American University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://www.aa.com/homePage.do?locale=en_US",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.aa.com/booking/find-flights",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.americanexpress.com/account/login?request_type=LogonHandler&Face=en_US",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.statesman.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.americanexpress.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://login.aa.com/miniMenu?locale=en_US",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Candidate failed: https://www.aa.com/homePage.do?locale=en_US (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://www.aa.com/homePage.do?locale=en_US)",
+    "Candidate failed: https://www.aa.com/booking/find-flights (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://www.aa.com/booking/find-flights)",
+    "Candidate failed: https://login.aa.com/miniMenu?locale=en_US (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://login.aa.com/miniMenu?locale=en_US)",
+    "Unknown file signature/content-type; not marked processed.",
+    "Third-party mirror suspected (www.americanexpress.com); prefer official .edu source.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

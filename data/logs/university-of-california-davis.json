@@ -1,0 +1,67 @@
+{
+  "display_name": "University of California, Davis",
+  "status": "partial",
+  "queries": [
+    "University of California, Davis 2026 Common Data Set pdf",
+    "University of California, Davis Common Data Set 2025-2026",
+    "University of California, Davis common data set site:edu",
+    "University of California, Davis Common Data Set 2026-2027",
+    "University of California, Davis institutional research common data set",
+    "University of California, Davis CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://aggiedata.ucdavis.edu/sites/g/files/dgvnsk1841/files/media/documents/CDS_UCD_0.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://aggiedata.ucdavis.edu/common-data-set",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://opa.berkeley.edu/campus-data/common-data-set",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://irap.uci.edu/institutional-research/data-hub/common-data-set/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.uga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/campus-locations/cartersville-site/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.kennesaw.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.westga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://guides.library.ucdavis.edu/education/data",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://enrollmentmanagement.ucdavis.edu/analytics/data-requests",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/University",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'University of California, Davis'; needs review.",
+    "Ambiguous identity: UC system campus; verify UCD CDS.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

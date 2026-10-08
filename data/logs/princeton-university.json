@@ -1,0 +1,66 @@
+{
+  "display_name": "Princeton University",
+  "status": "verified",
+  "queries": [
+    "Princeton University 2026 Common Data Set pdf",
+    "Princeton University Common Data Set 2025-2026",
+    "Princeton University common data set site:edu",
+    "Princeton University Common Data Set 2026-2027",
+    "Princeton University institutional research common data set",
+    "Princeton University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://ir.princeton.edu/sites/g/files/toruqf2041/files/documents/CDS_2425_Princeton_v1.2.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://ir.princeton.edu/other-university-data/common-data-set",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.princeton.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.princeton.edu/academics/areas-of-study",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://admission.princeton.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://admission.princeton.edu/visit-us",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.commondatasets.fyi/princeton",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.gradgpt.com/common-data-set/princeton-university",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Princeton_University",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Princeton,_New_Jersey",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.collegedata.fyi/schools/princeton/2025-26",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.collegedata.fyi/schools/princeton",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'Princeton University'; needs review.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

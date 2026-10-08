@@ -1,0 +1,42 @@
+{
+  "display_name": "Stevens Institute of Technology",
+  "status": "needs_review",
+  "queries": [
+    "Stevens Institute of Technology 2026 Common Data Set pdf",
+    "Stevens Institute of Technology Common Data Set 2025-2026",
+    "Stevens Institute of Technology common data set site:edu",
+    "Stevens Institute of Technology Common Data Set 2026-2027",
+    "Stevens Institute of Technology institutional research common data set",
+    "Stevens Institute of Technology CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://www.stevens.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://stevens.com.pa/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://stevensec.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://stevensducks.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.m.wikipedia.org/wiki/Stevens_Institute_of_Technology",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://savagearms.com/firearms",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Unknown file signature/content-type; not marked processed.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

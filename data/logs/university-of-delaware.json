@@ -1,0 +1,67 @@
+{
+  "display_name": "University of Delaware",
+  "status": "partial",
+  "queries": [
+    "University of Delaware 2026 Common Data Set pdf",
+    "University of Delaware Common Data Set 2025-2026",
+    "University of Delaware common data set site:edu",
+    "University of Delaware Common Data Set 2026-2027",
+    "University of Delaware institutional research common data set",
+    "University of Delaware CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://bpb-us-w2.wpmucdn.com/sites.udel.edu/dist/e/2019/files/2025/07/CDS2425_UDelaware.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://ire.udel.edu/common-data-set/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.uga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/campus-locations/cartersville-site/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.kennesaw.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.westga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.gradgpt.com/common-data-set/university-of-delaware",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://ire.udel.edu/ir/facts-figures/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/University",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.collegedata.fyi/schools/udel",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.collegedata.fyi/schools/udel/2024-25",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'University of Delaware'; needs review.",
+    "Third-party mirror suspected (bpb-us-w2.wpmucdn.com); prefer official .edu source.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

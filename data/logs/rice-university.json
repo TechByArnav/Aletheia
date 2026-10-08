@@ -1,0 +1,70 @@
+{
+  "display_name": "Rice University",
+  "status": "verified",
+  "queries": [
+    "Rice University 2026 Common Data Set pdf",
+    "Rice University Common Data Set 2025-2026",
+    "Rice University common data set site:edu",
+    "Rice University Common Data Set 2026-2027",
+    "Rice University institutional research common data set",
+    "Rice University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "http://ideas.rice.edu/wp-content/uploads/2026/07/CDS_2025-26_WEBSITE.pdf",
+      "provider": "manual"
+    },
+    {
+      "url": "https://ideas.rice.edu/wp-content/uploads/2025/10/CDS_2023-24_WEBSITE.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://ideas.rice.edu/wp-content/uploads/2025/10/CDS_2024-25_WEBSITE.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://ideas.rice.edu/reporting-analytics/common-data-set/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://oir.brown.edu/institutional-data/common-data-set",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.rice.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://libguides.rice.edu/data_resources",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://ideas.rice.edu/reporting-analytics/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rice",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.britannica.com/plant/rice",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.ricece.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rice_as_food",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.medicalnewstoday.com/articles/318699",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'Rice University'; needs review.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

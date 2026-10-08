@@ -1,0 +1,66 @@
+{
+  "display_name": "University of Arizona",
+  "status": "partial",
+  "queries": [
+    "University of Arizona 2026 Common Data Set pdf",
+    "University of Arizona Common Data Set 2025-2026",
+    "University of Arizona common data set site:edu",
+    "University of Arizona Common Data Set 2026-2027",
+    "University of Arizona institutional research common data set",
+    "University of Arizona CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://uair.arizona.edu/sites/default/files/2026-06/CDS_PDF_2025-26_v02_RE-PRINT.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://uair.arizona.edu/sites/default/files/2024-04/CDS_2023-2024_FINAL_2024-04-15_REPRINT.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://uair.arizona.edu/content/common-data-set",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://uoia.asu.edu/common-data-set",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://in.nau.edu/Institutional-Research/Common-Data-Set/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.uga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/campus-locations/cartersville-site/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.kennesaw.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.westga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://provost.arizona.edu/content/data-and-reporting",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/University",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'University of Arizona'; needs review.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

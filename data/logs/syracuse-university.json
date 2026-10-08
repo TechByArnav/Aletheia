@@ -1,0 +1,66 @@
+{
+  "display_name": "Syracuse University",
+  "status": "partial",
+  "queries": [
+    "Syracuse University 2026 Common Data Set pdf",
+    "Syracuse University Common Data Set 2025-2026",
+    "Syracuse University common data set site:edu",
+    "Syracuse University Common Data Set 2026-2027",
+    "Syracuse University institutional research common data set",
+    "Syracuse University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://www.su.edu/wp-content/uploads/2014/11/CDS-2425-Final.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.esf.edu/institutional-research/documents/CDS_2025_2026_ESF.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://commondataset.org/wp-content/uploads/2025/11/CDS_2025-2026-PDF_Template-1.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://commondataset.org/wp-content/uploads/2022/03/CDS_2021-2022.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.esf.edu/institutional-research/documents/ESFCDS_2016-2017.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://archive.ncarb.org/results/uploaded-files/Documents/Common_Data_Set_Syracuse.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.syracuse.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.syracuse.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Syracuse,_New_York",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.syracuse.com/news/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.syr.gov/Home",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://cnycentral.com/news/local",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'Syracuse University'; needs review.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

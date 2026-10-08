@@ -1,0 +1,43 @@
+{
+  "display_name": "Rensselaer Polytechnic Institute",
+  "status": "needs_review",
+  "queries": [
+    "Rensselaer Polytechnic Institute 2026 Common Data Set pdf",
+    "Rensselaer Polytechnic Institute Common Data Set 2025-2026",
+    "Rensselaer Polytechnic Institute common data set site:edu",
+    "Rensselaer Polytechnic Institute Common Data Set 2026-2027",
+    "Rensselaer Polytechnic Institute institutional research common data set",
+    "Rensselaer Polytechnic Institute CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://www.rpi.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.rpi.edu/visit",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.m.wikipedia.org/wiki/Rensselaer,_New_York",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.m.wikipedia.org/wiki/Rensselaer_Polytechnic_Institute",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://rensselaerny.gov/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.usnews.com/best-colleges/rpi-2803",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Candidate failed: https://www.usnews.com/best-colleges/rpi-2803 (Download failed after 3 attempts: HTTPSConnectionPool(host='www.usnews.com', port=443): Read timed out. (read timeout=25))",
+    "Unknown file signature/content-type; not marked processed.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "display_name": "University of Utah",
+  "status": "needs_review",
+  "queries": [
+    "University of Utah 2026 Common Data Set pdf",
+    "University of Utah Common Data Set 2025-2026",
+    "University of Utah common data set site:edu",
+    "University of Utah Common Data Set 2026-2027",
+    "University of Utah institutional research common data set",
+    "University of Utah CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://www.uga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/campus-locations/cartersville-site/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.kennesaw.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.westga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/University",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "File too small to be a full CDS; likely error page.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

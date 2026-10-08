@@ -1,0 +1,42 @@
+{
+  "display_name": "Dartmouth College",
+  "status": "needs_review",
+  "queries": [
+    "Dartmouth College 2026 Common Data Set pdf",
+    "Dartmouth College Common Data Set 2025-2026",
+    "Dartmouth College common data set site:edu",
+    "Dartmouth College Common Data Set 2026-2027",
+    "Dartmouth College institutional research common data set",
+    "Dartmouth College CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://home.dartmouth.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://home.dartmouth.edu/admissions",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://admissions.dartmouth.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dartmouth_College",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.usnews.com/best-colleges/dartmouth-college-2573",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dartmouth,_Nova_Scotia",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Candidate failed: https://www.usnews.com/best-colleges/dartmouth-college-2573 (Download failed after 3 attempts: HTTPSConnectionPool(host='www.usnews.com', port=443): Read timed out. (read timeout=25))",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

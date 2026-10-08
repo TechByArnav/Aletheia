@@ -1,0 +1,42 @@
+{
+  "display_name": "Purdue University",
+  "status": "needs_review",
+  "queries": [
+    "Purdue University 2026 Common Data Set pdf",
+    "Purdue University Common Data Set 2025-2026",
+    "Purdue University common data set site:edu",
+    "Purdue University Common Data Set 2026-2027",
+    "Purdue University institutional research common data set",
+    "Purdue University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://www.purdue.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://campus.purdueglobal.edu/login.aspx",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://owl.purdue.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://owl.purdue.edu/owl/research_and_citation/resources.html",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.purdue.edu/home/become-a-student/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Purdue_University",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Unknown file signature/content-type; not marked processed.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

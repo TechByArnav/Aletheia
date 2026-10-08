@@ -1,0 +1,43 @@
+{
+  "display_name": "Boston College",
+  "status": "needs_review",
+  "queries": [
+    "Boston College 2026 Common Data Set pdf",
+    "Boston College Common Data Set 2025-2026",
+    "Boston College common data set site:edu",
+    "Boston College Common Data Set 2026-2027",
+    "Boston College institutional research common data set",
+    "Boston College CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://www.boston.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Boston",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.meetboston.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.boston.gov/visiting-boston",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.boston.com/category/news/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.boston.gov/",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Unknown file signature/content-type; not marked processed.",
+    "Third-party mirror suspected (www.boston.com); prefer official .edu source.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

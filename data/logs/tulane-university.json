@@ -1,0 +1,42 @@
+{
+  "display_name": "Tulane University",
+  "status": "needs_review",
+  "queries": [
+    "Tulane University 2026 Common Data Set pdf",
+    "Tulane University Common Data Set 2025-2026",
+    "Tulane University common data set site:edu",
+    "Tulane University Common Data Set 2026-2027",
+    "Tulane University institutional research common data set",
+    "Tulane University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://tulane.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://tulane.edu/admission-aid",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://admission.tulane.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://admission.tulane.edu/academics/majors-minors",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.m.wikipedia.org/wiki/Tulane_University",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.espn.com/college-football/team/_/id/2655/tulane-green-wave",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Unknown file signature/content-type; not marked processed.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

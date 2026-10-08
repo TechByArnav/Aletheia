@@ -1,0 +1,66 @@
+{
+  "display_name": "George Washington University",
+  "status": "partial",
+  "queries": [
+    "George Washington University 2026 Common Data Set pdf",
+    "George Washington University Common Data Set 2025-2026",
+    "George Washington University common data set site:edu",
+    "George Washington University Common Data Set 2026-2027",
+    "George Washington University institutional research common data set",
+    "George Washington University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://irp.gwu.edu/sites/g/files/zaxdzs6056/files/2026-04/CDS-PDF-2025-2026.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://irp.gwu.edu/common-data-set",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://oiep.gmu.edu/resources/common-data-set/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://oads.georgetown.edu/commondataset/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://my.wlu.edu/document/2025-common-data-set",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://libguides.gwu.edu/datasetsdatabases",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://direct.asda.com/george/clothing/10,default,sc.html",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCu7IDy0y-ZA0qaG51wrQY6w",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://georgefashion.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/George_(given_name)",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/George_Washington",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.behindthename.com/name/george",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'George Washington University'; needs review.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

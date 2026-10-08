@@ -1,0 +1,66 @@
+{
+  "display_name": "Emory University",
+  "status": "verified",
+  "queries": [
+    "Emory University 2026 Common Data Set pdf",
+    "Emory University Common Data Set 2025-2026",
+    "Emory University common data set site:edu",
+    "Emory University Common Data Set 2026-2027",
+    "Emory University institutional research common data set",
+    "Emory University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://provost.emory.edu/planning-administration/_includes/documents/sections/institutional-data/emory-common-date-set-2025-2026.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://provost.emory.edu/planning-administration/data/common-data-set.html",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.emory.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.emory.edu/academics/degrees-programs",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.cosmic.nyc/blog/emory-common-data-set-2025-2026",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.gradgpt.com/common-data-set/emory-university",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://commondatasets.com/schools/emory.html",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.emoryhealthcare.org/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://mychart.emoryhealthcare.org/MyChart-prd/Authentication/Login",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.emoryhealthcare.org/locations/hospitals/emory-university-hospital/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.m.wikipedia.org/wiki/Emory_University",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.opencollegedata.com/schools/emory-university",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'Emory University'; needs review.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

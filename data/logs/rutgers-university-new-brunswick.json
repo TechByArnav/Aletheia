@@ -1,0 +1,44 @@
+{
+  "display_name": "Rutgers University-New Brunswick",
+  "status": "needs_review",
+  "queries": [
+    "Rutgers University-New Brunswick 2026 Common Data Set pdf",
+    "Rutgers University-New Brunswick Common Data Set 2025-2026",
+    "Rutgers University-New Brunswick common data set site:edu",
+    "Rutgers University-New Brunswick Common Data Set 2026-2027",
+    "Rutgers University-New Brunswick institutional research common data set",
+    "Rutgers University-New Brunswick CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://www.rutgers.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.rutgers.edu/academics",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://my.rutgers.edu/uxp/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://newbrunswick.rutgers.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rutgers_University",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://scarletknights.com/",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Candidate failed: https://newbrunswick.rutgers.edu/ (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://newbrunswick.rutgers.edu/)",
+    "Unknown file signature/content-type; not marked processed.",
+    "Ambiguous identity: Verify New Brunswick campus CDS specifically.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

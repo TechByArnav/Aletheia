@@ -23,7 +23,8 @@ def cli() -> None:
 @click.option("--out", default="frontend/public/data")
 @click.option("--source-url", multiple=True, help="Manual override URL(s)")
 def scan_one(university: str, target_year: str, cache_dir: str, out: str, source_url: tuple[str, ...]) -> None:
-    bundle, log, status = run_one(university, DuckDuckGoProvider(), Path(cache_dir), target_year, list(source_url))
+    from .automation import default_provider
+    bundle, log, status = run_one(university, default_provider(), Path(cache_dir), target_year, list(source_url))
     click.echo(f"status={status} candidates={len(log.candidates)}")
     for n in log.notes:
         click.echo(f" - {n}")
@@ -70,16 +71,20 @@ def scan_batch(target_year: str, cache_dir: str, out: str, limit: int, resume: s
 @click.option("--statuses", default="data/statuses.json")
 @click.option("--logs-dir", default="data/logs")
 @click.option("--overrides", default="data/overrides.json")
-def collect(target_year: str, limit: int, delay: float, cache_dir: str, out: str, statuses: str, logs_dir: str, overrides: str) -> None:
+@click.option("--recheck", is_flag=True, default=False, help="redo universities already recorded in statuses")
+@click.option("--offset", type=int, default=0, help="skip first N starter-list entries")
+@click.option("--only-missing", is_flag=True, default=False, help="retry only universities with no C7 factors yet")
+def collect(target_year: str, limit: int, delay: float, cache_dir: str, out: str, statuses: str, logs_dir: str, overrides: str, recheck: bool, offset: int, only_missing: bool) -> None:
     """Batch automation: starter list -> search -> download -> validate -> export."""
     from pathlib import Path
 
-    from .automation import run_collection
+    from .automation import _safe, run_collection
     from .pipeline import completeness_report
     st = run_collection(target_year=target_year, limit=limit, delay=delay, cache_dir=Path(cache_dir),
                         out_dir=Path(out), statuses_path=Path(statuses), logs_dir=Path(logs_dir),
-                        overrides_path=Path(overrides),
-                        progress=lambda n, s: click.echo(f"{n}: {s}"))
+                        overrides_path=Path(overrides), recheck=recheck, offset=offset,
+                        only_missing=only_missing,
+                        progress=lambda n, s: click.echo(f"{_safe(n)}: {s}"))
     click.echo(json.dumps(completeness_report(st), indent=2))
 
 

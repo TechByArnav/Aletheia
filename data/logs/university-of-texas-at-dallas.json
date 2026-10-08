@@ -1,0 +1,67 @@
+{
+  "display_name": "University of Texas at Dallas",
+  "status": "needs_review",
+  "queries": [
+    "University of Texas at Dallas 2026 Common Data Set pdf",
+    "University of Texas at Dallas Common Data Set 2025-2026",
+    "University of Texas at Dallas common data set site:edu",
+    "University of Texas at Dallas Common Data Set 2026-2027",
+    "University of Texas at Dallas institutional research common data set",
+    "University of Texas at Dallas CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://abpa.tamu.edu/_files/_documents/common-data/cds-pdf-2025-2026.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://oisds.utdallas.edu/common-data-set",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://reports.utexas.edu/common-data-set",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.uga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/campus-locations/cartersville-site/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.kennesaw.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.westga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://udallas.edu/offices-services/institutional-effectiveness/institutional-research/index.php",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://udallas.edu/offices-services/institutional-effectiveness/facts-and-stats.php",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://oisds.utdallas.edu/dat/dashboards",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/University",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Candidate failed: https://abpa.tamu.edu/_files/_documents/common-data/cds-pdf-2025-2026.pdf (Download failed after 3 attempts: 404 Client Error: Not Found for url: https://abpa.tamu.edu/_files/_documents/common-data/cds-pdf-2025-2026.pdf)",
+    "Unknown file signature/content-type; not marked processed.",
+    "Ambiguous identity: UT System campus; verify Dallas CDS."
+  ]
+}

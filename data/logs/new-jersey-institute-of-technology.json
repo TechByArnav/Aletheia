@@ -1,0 +1,43 @@
+{
+  "display_name": "New Jersey Institute of Technology",
+  "status": "needs_review",
+  "queries": [
+    "New Jersey Institute of Technology 2026 Common Data Set pdf",
+    "New Jersey Institute of Technology Common Data Set 2025-2026",
+    "New Jersey Institute of Technology common data set site:edu",
+    "New Jersey Institute of Technology Common Data Set 2026-2027",
+    "New Jersey Institute of Technology institutional research common data set",
+    "New Jersey Institute of Technology CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://www.haierpro.com.tw/product/p307/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.haierpro.com.tw/product/dc5lite/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.haierpro.com.tw/product/h600/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.haierpro.com.tw/product/dc6/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.haierpro.com.tw/product/m9/feed/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.haierpro.com.tw/product/800gropcb/feed/",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Unknown file signature/content-type; not marked processed.",
+    "Third-party mirror suspected (www.haierpro.com.tw); prefer official .edu source.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

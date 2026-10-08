@@ -1,0 +1,70 @@
+{
+  "display_name": "Tufts University",
+  "status": "partial",
+  "queries": [
+    "Tufts University 2026 Common Data Set pdf",
+    "Tufts University Common Data Set 2025-2026",
+    "Tufts University common data set site:edu",
+    "Tufts University Common Data Set 2026-2027",
+    "Tufts University institutional research common data set",
+    "Tufts University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://provost.tufts.edu/institutionalresearch/wp-content/uploads/sites/5/CDS_2025-2026.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://commondataset.org/wp-content/uploads/2025/11/CDS_2025-2026-PDF_Template.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://provost.tufts.edu/institutionalresearch/common-data-set/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.gradgpt.com/common-data-set/tufts-university",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.tufts.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.tufts.edu/admissions",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.collegedata.fyi/schools/tufts/2025-26",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.collegedata.fyi/schools/tufts",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://collegenumbers.com/school/tufts-university",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://tuftshealthplan.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tufts_University",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.tuftsmedicine.org/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://mychart.well-net.org/MyChartPRD/Authentication/Login",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'Tufts University'; needs review.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

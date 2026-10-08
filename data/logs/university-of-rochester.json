@@ -1,0 +1,78 @@
+{
+  "display_name": "University of Rochester",
+  "status": "verified",
+  "queries": [
+    "University of Rochester 2026 Common Data Set pdf",
+    "University of Rochester Common Data Set 2025-2026",
+    "University of Rochester common data set site:edu",
+    "University of Rochester Common Data Set 2026-2027",
+    "University of Rochester institutional research common data set",
+    "University of Rochester CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://www.rochester.edu/provost/wp-content/uploads/2026/06/CDS-2025-26-completed-for-web.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.rochester.edu/provost/wp-content/uploads/2025/06/CDS_2024-2025-completed-for-web.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.rit.edu/institutionalresearch/sites/rit.edu.institutionalresearch/files/documents/Common%20Data%20Set%20PDFs/RIT_CDS_2025_26_FINAL_20260603.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.rochester.edu/provost/university-data/data-insights-reporting/university-of-rochester-common-data-set/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.uga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/campus-locations/cartersville-site/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.kennesaw.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.westga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.gradgpt.com/common-data-set/university-of-rochester",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://libguides.lib.rochester.edu/data-stats",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.rochester.edu/bulletin/university/student-statistics-and-outcomes.html",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/University",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://collegenumbers.com/school/university-of-rochester",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.esslo.org/colleges/university-of-rochester",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'University of Rochester'; needs review.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "display_name": "Vanderbilt University",
+  "status": "needs_review",
+  "queries": [
+    "Vanderbilt University 2026 Common Data Set pdf",
+    "Vanderbilt University Common Data Set 2025-2026",
+    "Vanderbilt University common data set site:edu",
+    "Vanderbilt University Common Data Set 2026-2027",
+    "Vanderbilt University institutional research common data set",
+    "Vanderbilt University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://www.vanderbilt.edu/data/public-data/common-data-sets/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://cdn.vanderbilt.edu/vu-wpfsx/wp-content/uploads/sites/70/2025/11/CDS_2024-2025.xlsx",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://cdn.vanderbilt.edu/vu-wpfsx/wp-content/uploads/sites/70/2026/07/CDS_2025-2026.xlsx",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.vanderbilt.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.vanderbilt.edu/data/public-data/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.vanderbilt.edu/data/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.vanderbilt.edu/data/public-data/student-factbook/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vanderbilt_family",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vanderbilt_University",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://summitov.com/tickets/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.usnews.com/best-colleges/vanderbilt-3535",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.vanderbiltmuseum.org/",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Unknown file signature/content-type; not marked processed."
+  ]
+}

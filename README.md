@@ -29,6 +29,12 @@ aletheia scan-one --university "City University of New York" --source-url "https
 aletheia collect --target-year 2026 --limit 10 --delay 2.0
 aletheia collect --target-year 2026 --limit 0  # full list
 
+# Optional: Google search (better recall than DDG/Bing RSS).
+# 1. Create a free Custom Search Engine at https://programmablesearchengine.google.com
+#    (free tier ~100 queries/day) and get an API key.
+# 2. $env:GOOGLE_CSE_KEY="..."; $env:GOOGLE_CSE_CX="..."
+# Without these, collection falls back to keyless providers automatically.
+
 # Frontend
 cd frontend && npm install && npm run build
 ```

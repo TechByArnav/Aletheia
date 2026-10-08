@@ -1,0 +1,67 @@
+{
+  "display_name": "University of Connecticut",
+  "status": "needs_review",
+  "queries": [
+    "University of Connecticut 2026 Common Data Set pdf",
+    "University of Connecticut Common Data Set 2025-2026",
+    "University of Connecticut common data set site:edu",
+    "University of Connecticut Common Data Set 2026-2027",
+    "University of Connecticut institutional research common data set",
+    "University of Connecticut CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://bpir.media.uconn.edu/wp-content/uploads/sites/3452/2025/07/UConn_CDS_2024_2025.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://bpir.media.uconn.edu/wp-content/uploads/sites/3452/2024/08/UConn_CDS_2023_2024.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://bpir.uconn.edu/home/institutional-research/data-resources/common-data-set/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://draft.bpir.uconn.edu/common-data-set/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://oir.usc.edu/statistics-data-visualization/common-data-set/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.uga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/campus-locations/cartersville-site/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.kennesaw.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.westga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://bpir.uconn.edu/home/institutional-research/data-resources/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/University",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Candidate failed: https://bpir.media.uconn.edu/wp-content/uploads/sites/3452/2025/07/UConn_CDS_2024_2025.pdf (Download failed after 3 attempts: HTTPSConnectionPool(host='bpir.media.uconn.edu', port=443): Max retries exceeded with url: /wp-content/uploads/sites/3452/2025/07/UConn_CDS_2024_2025.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)'))))",
+    "Candidate failed: https://bpir.media.uconn.edu/wp-content/uploads/sites/3452/2024/08/UConn_CDS_2023_2024.pdf (Download failed after 3 attempts: HTTPSConnectionPool(host='bpir.media.uconn.edu', port=443): Max retries exceeded with url: /wp-content/uploads/sites/3452/2024/08/UConn_CDS_2023_2024.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)'))))",
+    "Unknown file signature/content-type; not marked processed."
+  ]
+}

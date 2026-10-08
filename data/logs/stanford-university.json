@@ -1,0 +1,68 @@
+{
+  "display_name": "Stanford University",
+  "status": "verified",
+  "queries": [
+    "Stanford University 2026 Common Data Set pdf",
+    "Stanford University Common Data Set 2025-2026",
+    "Stanford University common data set site:edu",
+    "Stanford University Common Data Set 2026-2027",
+    "Stanford University institutional research common data set",
+    "Stanford University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://irds.stanford.edu/data-findings/cds",
+      "provider": "manual"
+    },
+    {
+      "url": "https://t1.daumcdn.net/brunch/service/user/bLgN/file/4aqkv62-G68tP23NKOj-o8bkcEs.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.stanford.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.stanford.edu/about",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://online.stanford.edu/free-courses",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://admission.stanford.edu/apply/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://gradadmissions.stanford.edu/explore-programs",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://irds.stanford.edu/data-findings",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Stanford_University",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.collegedata.fyi/schools/stanford/2025-26",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.collegedata.fyi/schools/stanford",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.collegenumbers.com/school/stanford-university",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Candidate failed: https://online.stanford.edu/free-courses (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://online.stanford.edu/free-courses)",
+    "Institution tokens not found in head text for 'Stanford University'; needs review.",
+    "Third-party mirror suspected (t1.daumcdn.net); prefer official .edu source.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

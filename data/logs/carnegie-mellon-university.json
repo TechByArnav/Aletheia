@@ -1,0 +1,42 @@
+{
+  "display_name": "Carnegie Mellon University",
+  "status": "needs_review",
+  "queries": [
+    "Carnegie Mellon University 2026 Common Data Set pdf",
+    "Carnegie Mellon University Common Data Set 2025-2026",
+    "Carnegie Mellon University common data set site:edu",
+    "Carnegie Mellon University Common Data Set 2026-2027",
+    "Carnegie Mellon University institutional research common data set",
+    "Carnegie Mellon University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://www.cmu.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://apps.carnegielearning.com/login/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Andrew_Carnegie",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://carnegiefabrics.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.carnegielearning.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.carnegie.org/",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Unknown file signature/content-type; not marked processed.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

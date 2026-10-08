@@ -1,15 +1,19 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-07T22:52:16.361890+00:00",
+  "generated_at": "2026-10-08T02:53:48.231003+00:00",
   "reporting_periods": [
-    "2025-2026"
+    "2024-2025",
+    "2025-2026",
+    "2026"
   ],
-  "n_institutions": 4,
+  "n_institutions": 100,
   "counts": {
-    "total": 4,
-    "verified": 2,
-    "partial": 0,
-    "needs_review": 2,
+    "found": 0,
+    "downloaded": 0,
+    "parsed": 0,
+    "verified": 15,
+    "partial": 2,
+    "needs_review": 83,
     "not_available": 0,
     "failed": 0
   },

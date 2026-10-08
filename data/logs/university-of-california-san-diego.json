@@ -1,0 +1,66 @@
+{
+  "display_name": "University of California, San Diego",
+  "status": "partial",
+  "queries": [
+    "University of California, San Diego 2026 Common Data Set pdf",
+    "University of California, San Diego Common Data Set 2025-2026",
+    "University of California, San Diego common data set site:edu",
+    "University of California, San Diego Common Data Set 2026-2027",
+    "University of California, San Diego institutional research common data set",
+    "University of California, San Diego CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://ir.ucsd.edu/stats/undergrad/CDS-2025-2026-Final2.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://ir.ucsd.edu/stats/undergrad/common-data-set.html",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://ir.ucsd.edu/stats/undergrad/index.html",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.gradgpt.com/common-data-set/university-of-california-san-diego",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.uga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/campus-locations/cartersville-site/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.kennesaw.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.westga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.collegedata.fyi/schools/uc-san-diego/2025-26",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.collegedata.fyi/schools/uc-san-diego",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/University",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Ambiguous identity: UC system campus; verify UCSD CDS.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

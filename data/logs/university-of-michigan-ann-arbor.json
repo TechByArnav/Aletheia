@@ -1,0 +1,66 @@
+{
+  "display_name": "University of Michigan-Ann Arbor",
+  "status": "verified",
+  "queries": [
+    "University of Michigan-Ann Arbor 2026 Common Data Set pdf",
+    "University of Michigan-Ann Arbor Common Data Set 2025-2026",
+    "University of Michigan-Ann Arbor common data set site:edu",
+    "University of Michigan-Ann Arbor Common Data Set 2026-2027",
+    "University of Michigan-Ann Arbor institutional research common data set",
+    "University of Michigan-Ann Arbor CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/CDS_2024-25_UMAA.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://obp.umich.edu/campus-statistics/common-data-set/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.umflint.edu/ia/campus-statistics/common-data-set/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://ir.msu.edu/cds",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.uga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/campus-locations/cartersville-site/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.kennesaw.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.westga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.lib.umich.edu/collections/collecting-areas/specific-formats/data/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://guides.lib.umich.edu/c.php?g=283068&p=9771311",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/University",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'University of Michigan-Ann Arbor'; needs review.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

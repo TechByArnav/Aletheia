@@ -1,0 +1,44 @@
+{
+  "display_name": "City University of New York",
+  "status": "needs_review",
+  "queries": [
+    "City University of New York 2026 Common Data Set pdf",
+    "City University of New York Common Data Set 2025-2026",
+    "City University of New York common data set site:edu",
+    "City University of New York Common Data Set 2026-2027",
+    "City University of New York institutional research common data set",
+    "City University of New York CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "http://www.pinellaspark.gov/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://pinellaspark.gov/2315/City-Government",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.cityhome.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://pinellas.gov/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.stpete.org/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://pinellasparkfl.municipalonlinepayments.com/pinellasparkfl/utilities",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Unknown file signature/content-type; not marked processed.",
+    "Ambiguous identity: System entry: CDS is published per college (e.g. Baruch, Hunter, City College, Queens). Requires reviewed college mapping.",
+    "Third-party mirror suspected (pinellas.gov); prefer official .edu source.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

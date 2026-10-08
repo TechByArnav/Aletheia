@@ -1,0 +1,70 @@
+{
+  "display_name": "Harvard University",
+  "status": "verified",
+  "queries": [
+    "Harvard University 2026 Common Data Set pdf",
+    "Harvard University Common Data Set 2025-2026",
+    "Harvard University common data set site:edu",
+    "Harvard University Common Data Set 2026-2027",
+    "Harvard University institutional research common data set",
+    "Harvard University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://oira.harvard.edu/files/2026/07/CDS_2025-2026.pdf",
+      "provider": "manual"
+    },
+    {
+      "url": "https://bpb-us-e1.wpmucdn.com/sites.harvard.edu/dist/6/210/files/2026/07/CDS_2025-2026.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://commondataset.org/wp-content/uploads/2025/11/CDS_2025-2026-PDF_Template.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://oira.harvard.edu/common-data-set/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://oira.harvard.edu/2026/07/13/2025-26-common-data-set-cds-published/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://groups.google.com/a/cbcommondataset.org/g/commondataset/c/BJMAzaHaK9k",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.harvard.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.harvard.edu/in-focus/welcome-to-harvard/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://college.harvard.edu/admissions/apply",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://college.harvard.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://pll.harvard.edu/catalog/FRee",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.collegedata.fyi/schools/harvard/2025-26",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Harvard_University",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'Harvard University'; needs review.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

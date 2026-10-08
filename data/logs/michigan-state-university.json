@@ -1,0 +1,116 @@
+{
+  "display_name": "Michigan State University",
+  "status": "needs_review",
+  "queries": [
+    "Michigan State University 2026 Common Data Set pdf",
+    "Michigan State University Common Data Set 2025-2026",
+    "Michigan State University common data set site:edu",
+    "Michigan State University Common Data Set 2026-2027",
+    "Michigan State University institutional research common data set",
+    "Michigan State University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://ir.msu.edu/cds",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://obp.umich.edu/campus-statistics/common-data-set/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.mtu.edu/institutional-research/cds/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://ir.msu.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://libguides.lib.msu.edu/msustats",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://iepr.mtsu.edu/common_data/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://whatismyipaddress.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://whatismyipaddress.com/ru/index",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://forums.whatismyipaddress.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://forums.whatismyipaddress.com/viewtopic.php?t=3673",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://whatismyipaddress.com/ip-lookup",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://whatismyipaddress.com/vi-vn/index",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.goodreads.com/en/book/show/138872.Follow_the_River",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.amazon.com/Follow-River-James-Alexander-Thom/dp/0345338545",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.amazon.com/Follow-River-James-Alexander-Thom-ebook/dp/B003XT60JK",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "http://www.jamesalexanderthom.com/river.html",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.supersummary.com/follow-the-river/summary/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/178063/follow-the-river-by-james-alexander-thom/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.zillow.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.zillow.com/grand-rapids-mi/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.zillow.com/san-jose-ca/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.zillow.com/homes/for_sale/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.zillow.com/il/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.zillow.com/homes/recently_sold/",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Candidate failed: https://obp.umich.edu/campus-statistics/common-data-set/ (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://obp.umich.edu/campus-statistics/common-data-set/)",
+    "Candidate failed: https://whatismyipaddress.com/ (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://whatismyipaddress.com/)",
+    "Candidate failed: https://whatismyipaddress.com/ru/index (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://whatismyipaddress.com/ru/index)",
+    "Unknown file signature/content-type; not marked processed."
+  ]
+}

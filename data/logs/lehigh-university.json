@@ -1,0 +1,66 @@
+{
+  "display_name": "Lehigh University",
+  "status": "verified",
+  "queries": [
+    "Lehigh University 2026 Common Data Set pdf",
+    "Lehigh University Common Data Set 2025-2026",
+    "Lehigh University common data set site:edu",
+    "Lehigh University Common Data Set 2026-2027",
+    "Lehigh University institutional research common data set",
+    "Lehigh University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://data.lehigh.edu/sites/data.lehigh.edu/files/1302026-CDS-2025-2026-FINAL.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://data.lehigh.edu/common-data-set",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.lehigh.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www2.lehigh.edu/admissions/visits-tours",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://commondatasets.com/schools/lehigh.html",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.m.wikipedia.org/wiki/Lehigh_University",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://lehighsafetyshoes.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://lehighsports.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.usnews.com/best-colleges/lehigh-university-3289",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.collegedata.fyi/schools/lehigh/2025-26",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.collegedata.fyi/schools/lehigh",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://collegenumbers.com/school/lehigh-university",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'Lehigh University'; needs review.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

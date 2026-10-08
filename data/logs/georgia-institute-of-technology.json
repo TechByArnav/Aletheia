@@ -1,0 +1,44 @@
+{
+  "display_name": "Georgia Institute of Technology",
+  "status": "needs_review",
+  "queries": [
+    "Georgia Institute of Technology 2026 Common Data Set pdf",
+    "Georgia Institute of Technology Common Data Set 2025-2026",
+    "Georgia Institute of Technology common data set site:edu",
+    "Georgia Institute of Technology Common Data Set 2026-2027",
+    "Georgia Institute of Technology institutional research common data set",
+    "Georgia Institute of Technology CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Georgia_(country)",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://georgia.gov/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Georgia_(U.S._state)",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.britannica.com/place/Georgia",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.worldatlas.com/maps/georgia",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://georgia.travel/",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Candidate failed: https://www.britannica.com/place/Georgia (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://www.britannica.com/place/Georgia)",
+    "Unknown file signature/content-type; not marked processed.",
+    "Third-party mirror suspected (en.wikipedia.org); prefer official .edu source.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

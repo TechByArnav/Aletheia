@@ -1,0 +1,66 @@
+{
+  "display_name": "Cornell University",
+  "status": "partial",
+  "queries": [
+    "Cornell University 2026 Common Data Set pdf",
+    "Cornell University Common Data Set 2025-2026",
+    "Cornell University common data set site:edu",
+    "Cornell University Common Data Set 2026-2027",
+    "Cornell University institutional research common data set",
+    "Cornell University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://irp.dpb.cornell.edu/wp-content/uploads/2025/07/CDS-2024-2025-v6-print.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.cornellcollege.edu/institutional-research/pdf/cdsets/2024-25-Common-Data-Set.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://irp.cornell.edu/common-data-set",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.cornellcollege.edu/institutional-research/institutional-profile/common-data-sets.shtml",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.cornell.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.cornell.edu/about/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://socialsciences.cornell.edu/computing-and-data/data-discovery-and-replication/data-resources",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.m.wikipedia.org/wiki/Cornell_University",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.cnn.com/2026/09/29/us/cornell-rape-case-sexual-assault-debate",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.cnn.com/2026/10/03/us/cornell-rape-case-timeline-hnk",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/jane-doe-cornell-university-rape-allegations-text-messages-transcripts/",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'Cornell University'; needs review.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

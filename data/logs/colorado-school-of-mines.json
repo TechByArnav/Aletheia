@@ -1,0 +1,48 @@
+{
+  "display_name": "Colorado School of Mines",
+  "status": "needs_review",
+  "queries": [
+    "Colorado School of Mines 2026 Common Data Set pdf",
+    "Colorado School of Mines Common Data Set 2025-2026",
+    "Colorado School of Mines common data set site:edu",
+    "Colorado School of Mines Common Data Set 2026-2027",
+    "Colorado School of Mines institutional research common data set",
+    "Colorado School of Mines CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Colorado",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.colorado.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.britannica.com/place/Colorado-state",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.colorado.gov/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://travel.usnews.com/rankings/best-places-to-visit-in-colorado/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.colorado.com/english/welcome-colorado",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Candidate failed: https://www.colorado.com/ (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://www.colorado.com/)",
+    "Candidate failed: https://www.britannica.com/place/Colorado-state (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://www.britannica.com/place/Colorado-state)",
+    "Candidate failed: https://www.colorado.gov/ (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://www.colorado.gov/)",
+    "Candidate failed: https://travel.usnews.com/rankings/best-places-to-visit-in-colorado/ (Download failed after 3 attempts: HTTPSConnectionPool(host='travel.usnews.com', port=443): Read timed out. (read timeout=25))",
+    "Candidate failed: https://www.colorado.com/english/welcome-colorado (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://www.colorado.com/english/welcome-colorado)",
+    "Unknown file signature/content-type; not marked processed.",
+    "Third-party mirror suspected (en.wikipedia.org); prefer official .edu source.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

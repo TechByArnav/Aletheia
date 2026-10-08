@@ -1,0 +1,90 @@
+{
+  "display_name": "Northwestern University",
+  "status": "partial",
+  "queries": [
+    "Northwestern University 2026 Common Data Set pdf",
+    "Northwestern University Common Data Set 2025-2026",
+    "Northwestern University common data set site:edu",
+    "Northwestern University Common Data Set 2026-2027",
+    "Northwestern University institutional research common data set",
+    "Northwestern University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://enrollment.northwestern.edu/data/2025-2026.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://commondataset.org/wp-content/uploads/2025/11/CDS_2025-2026-PDF_Template.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://enrollment.northwestern.edu/data/common-data-set.html",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.northwestern.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.commondatasets.fyi/northwestern",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.gradgpt.com/common-data-set/northwestern-university",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.gradgpt.com/common-data-set",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.m.wikipedia.org/wiki/Northwestern_University",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.nm.org/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://nusports.com/sports/football",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.northwesternmutual.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.espn.com/college-football/team/_/id/77/northwestern-wildcats",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.youtube.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.youtube.com/@________________.",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1G4wjdjnDAY",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.youtube.com/@__...__...",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=fJBlEPOj4Fk",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=E7jHdXNB_44",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'Northwestern University'; needs review.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

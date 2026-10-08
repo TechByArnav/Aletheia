@@ -1,0 +1,66 @@
+{
+  "display_name": "University of North Carolina at Chapel Hill",
+  "status": "verified",
+  "queries": [
+    "University of North Carolina at Chapel Hill 2026 Common Data Set pdf",
+    "University of North Carolina at Chapel Hill Common Data Set 2025-2026",
+    "University of North Carolina at Chapel Hill common data set site:edu",
+    "University of North Carolina at Chapel Hill Common Data Set 2026-2027",
+    "University of North Carolina at Chapel Hill institutional research common data set",
+    "University of North Carolina at Chapel Hill CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://oira.unc.edu/wp-content/uploads/sites/297/2026/06/CDS_UNCCH_2025-26_20260615.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://oira.unc.edu/reports/reports-archives/common-data-set/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.uga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/campus-locations/cartersville-site/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.kennesaw.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.westga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://oira.unc.edu/reports/reports-archives/data-summaries-and-publications/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://oira.unc.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://oira.unc.edu/reports/reports-archives/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://oira.unc.edu/reports/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/University",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'University of North Carolina at Chapel Hill'; needs review.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

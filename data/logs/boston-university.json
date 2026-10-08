@@ -1,0 +1,66 @@
+{
+  "display_name": "Boston University",
+  "status": "verified",
+  "queries": [
+    "Boston University 2026 Common Data Set pdf",
+    "Boston University Common Data Set 2025-2026",
+    "Boston University common data set site:edu",
+    "Boston University Common Data Set 2026-2027",
+    "Boston University institutional research common data set",
+    "Boston University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://www.bu.edu/asir/files/2026/07/CDS-2025-2026-updated.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.bu.edu/asir/bu-facts/common-data-set/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.bc.edu/bc-web/sites/common-data-set.html",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.umb.edu/oir/facts/common-data-set/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://open.bu.edu/items/7367bda9-ca37-44be-8f8a-6a027e394274",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://library.bu.edu/c.php?g=1448590&p=10765886",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.boston.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Boston",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.meetboston.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.boston.gov/visiting-boston",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://travel.usnews.com/Boston_MA/Things_To_Do/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.boston.com/category/news/",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'Boston University'; needs review.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

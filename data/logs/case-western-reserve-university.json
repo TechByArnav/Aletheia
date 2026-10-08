@@ -1,0 +1,90 @@
+{
+  "display_name": "Case Western Reserve University",
+  "status": "verified",
+  "queries": [
+    "Case Western Reserve University 2026 Common Data Set pdf",
+    "Case Western Reserve University Common Data Set 2025-2026",
+    "Case Western Reserve University common data set site:edu",
+    "Case Western Reserve University Common Data Set 2026-2027",
+    "Case Western Reserve University institutional research common data set",
+    "Case Western Reserve University CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://case.edu/ir/sites/default/files/2021-02/CDS_2020-2021_0.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.bw.edu/about/offices/institutional-research-assessment/_files/common-data-set-2023-24.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.pace.edu/sites/default/files/2024-04/university-wide-common-data-set-2023-2024.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://researchguides.case.edu/cds",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.gradgpt.com/common-data-set/case-western-reserve-university",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://talk.collegeconfidential.com/t/cwru-2025-2026-common-data-set-cds-is-available/3701645",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://case.edu/ir/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://data.case.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.caseih.com/en-us/unitedstates",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.casece.com/en-us/northamerica/products",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.case.org/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://caseknives.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.casece.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://caseknives.com/collections/knives",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.collegedata.fyi/schools/case-western-reserve-university/2025-26",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://collegenumbers.com/school/case-western-reserve-university",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.collegedata.fyi/schools/case-western-reserve-university",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.opencollegedata.com/schools/case-western-reserve-university",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'Case Western Reserve University'; needs review.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

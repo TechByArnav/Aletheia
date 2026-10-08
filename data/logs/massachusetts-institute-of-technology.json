@@ -1,0 +1,47 @@
+{
+  "display_name": "Massachusetts Institute of Technology",
+  "status": "partial",
+  "queries": [
+    "Massachusetts Institute of Technology 2026 Common Data Set pdf",
+    "Massachusetts Institute of Technology Common Data Set 2025-2026",
+    "Massachusetts Institute of Technology common data set site:edu",
+    "Massachusetts Institute of Technology Common Data Set 2026-2027",
+    "Massachusetts Institute of Technology institutional research common data set",
+    "Massachusetts Institute of Technology CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://ir.mit.edu/projects/2025-26-common-data-set",
+      "provider": "manual"
+    },
+    {
+      "url": "https://en.m.wikipedia.org/wiki/Massachusetts",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.mass.gov/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.worldatlas.com/maps/united-states/massachusetts",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.britannica.com/place/Massachusetts",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://ontheworldmap.com/usa/state/massachusetts/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.visit-massachusetts.com/",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Candidate failed: https://www.mass.gov/ (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://www.mass.gov/)",
+    "Candidate failed: https://www.britannica.com/place/Massachusetts (Download failed after 3 attempts: 403 Client Error: Forbidden for url: https://www.britannica.com/place/Massachusetts)",
+    "Unknown file signature/content-type; not marked processed."
+  ]
+}

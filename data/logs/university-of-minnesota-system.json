@@ -1,0 +1,67 @@
+{
+  "display_name": "University of Minnesota (System)",
+  "status": "partial",
+  "queries": [
+    "University of Minnesota (System) 2026 Common Data Set pdf",
+    "University of Minnesota (System) Common Data Set 2025-2026",
+    "University of Minnesota (System) common data set site:edu",
+    "University of Minnesota (System) Common Data Set 2026-2027",
+    "University of Minnesota (System) institutional research common data set",
+    "University of Minnesota (System) CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://idr.umn.edu/sites/idr.umn.edu/files/cds_2025_2026_tc.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://idr.umn.edu/sites/idr.umn.edu/files/cds_2024_2025_tc_1.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://oem.umn.edu/common-data-set",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://oir.d.umn.edu/common-data-set",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://crk.umn.edu/institutional-effectiveness/common-data-set-and-surveys",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.uga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/campus-locations/cartersville-site/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.kennesaw.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.westga.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.highlands.edu/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://digitalcommons.morris.umn.edu/cgi/viewcontent.cgi?article=1042&context=institutionaldata",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/University",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'University of Minnesota (System)'; needs review.",
+    "Ambiguous identity: System entry: CDS is published per campus (Twin Cities, Duluth, Morris, Crookston, Rochester). Requires reviewed campus mapping.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

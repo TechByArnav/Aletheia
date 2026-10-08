@@ -1,0 +1,66 @@
+{
+  "display_name": "California Institute of Technology",
+  "status": "needs_review",
+  "queries": [
+    "California Institute of Technology 2026 Common Data Set pdf",
+    "California Institute of Technology Common Data Set 2025-2026",
+    "California Institute of Technology common data set site:edu",
+    "California Institute of Technology Common Data Set 2026-2027",
+    "California Institute of Technology institutional research common data set",
+    "California Institute of Technology CDS archive site:edu"
+  ],
+  "candidates": [
+    {
+      "url": "https://finance.caltech.edu/documents/35127/cds_2026.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://commondataset.org/wp-content/uploads/2025/11/CDS_2025-2026-PDF_Template.pdf",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://finance.caltech.edu/Resources/cds",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.commondatasets.fyi/caltech",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.gradgpt.com/common-data-set/caltech",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.collegedata.fyi/schools/caltech/2025-26",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://en.m.wikipedia.org/wiki/California",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.ca.gov/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://ontheworldmap.com/usa/state/california/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.visitcalifornia.com/",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://www.britannica.com/place/California-state",
+      "provider": "bing-rss"
+    },
+    {
+      "url": "https://nypost.com/ca/",
+      "provider": "bing-rss"
+    }
+  ],
+  "notes": [
+    "Institution tokens not found in head text for 'California Institute of Technology'; needs review.",
+    "Phrase 'Common Data Set' not found in head; sections C7/C9 may be absent."
+  ]
+}

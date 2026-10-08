@@ -27,6 +27,10 @@ class Candidate:
 class SearchProvider:
     name: str = "base"
 
+    @property
+    def available(self) -> bool:
+        return True
+
     def search(self, query: str, max_results: int = 10) -> list[Candidate]:
         raise NotImplementedError
 
@@ -105,6 +109,8 @@ class ChainedProvider(SearchProvider):
         seen: set[str] = set()
         out: list[Candidate] = []
         for p in self.providers:
+            if not p.available:
+                continue
             try:
                 got = p.search(query, max_results=max_results)
             except Exception:
@@ -120,6 +126,48 @@ class ChainedProvider(SearchProvider):
         return out
 
 
+class GoogleCSEProvider(SearchProvider):
+    """Google Custom Search JSON API. Opt-in only — needs a key.
+
+    Reads GOOGLE_CSE_KEY and GOOGLE_CSE_CX from the environment. When absent
+    the provider reports unavailable and the chain skips it, so the baseline
+    keeps working with no keys. Free tier is ~100 queries/day: use with
+    --only-missing / small --limit slices, not full bulk runs.
+    Never scrape Google HTML: it blocks automation and we do not bypass
+    CAPTCHAs or access restrictions.
+    """
+
+    name = "google-cse"
+
+    def __init__(self, timeout: int = 15, key: str = "", cx: str = "") -> None:
+        import os
+
+        self.timeout = timeout
+        self.key = key or os.environ.get("GOOGLE_CSE_KEY", "")
+        self.cx = cx or os.environ.get("GOOGLE_CSE_CX", "")
+
+    @property
+    def available(self) -> bool:
+        return bool(self.key and self.cx)
+
+    def search(self, query: str, max_results: int = 10) -> list[Candidate]:
+        if not self.available:
+            return []
+        try:
+            r = requests.get(
+                "https://www.googleapis.com/customsearch/v1",
+                params={"key": self.key, "cx": self.cx, "q": query, "num": min(max_results, 10)},
+                timeout=self.timeout,
+            )
+            r.raise_for_status()
+            items = r.json().get("items", [])
+        except Exception:
+            return []
+        return [Candidate(url=i.get("link", ""), title=i.get("title", ""), snippet=i.get("snippet", ""),
+                          rank=n, provider=self.name)
+                for n, i in enumerate(items) if (i.get("link") or "").startswith("http")][:max_results]
+
+
 class ManualProvider(SearchProvider):
     """Manual URL overrides supplied by user / reviewed mapping."""
 
@@ -133,11 +181,13 @@ class ManualProvider(SearchProvider):
 
 
 def build_queries(display_name: str, target_year: str = "2026") -> list[str]:
-    # Requested query first, then targeted fallbacks. A filename containing
-    # the year never proves the reporting period — validated later.
+    # Operator-free first (Bing RSS ignores filetype:/site: and returns junk
+    # when given operators). A filename containing the year never proves the
+    # reporting period — validated later.
     return [
-        f"{display_name} {target_year} Common Data Set filetype:pdf",
+        f"{display_name} {target_year} Common Data Set pdf",
         f"{display_name} Common Data Set 2025-2026",
+        f"{display_name} common data set site:edu",
         f"{display_name} Common Data Set 2026-2027",
         f"{display_name} institutional research common data set",
         f"{display_name} CDS archive site:edu",
